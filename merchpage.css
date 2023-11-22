@@ -1,0 +1,24 @@
+body {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+
+.header{
+    background-color: black;
+    color: white;
+    width: 189%;
+    height: 18%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 400%;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+}
+.header a{
+    font-size: 50%;
+    color: white;
+    padding-left: 10%;
+}

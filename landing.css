@@ -1,15 +1,20 @@
+body {
+    overflow: auto;
+    white-space: nowrap;
+}
+
 .header{
     background-color: black;
     color: white;
-    padding: 2%;
     width: 189%;
-    height: 100%;
+    height: 18%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 400%;
     font-weight: bold;
     display: flex;
     align-items: center;
-    padding-left: 10%;
+    position: fixed;
+    z-index: 2;
 }
 .header a{
     font-size: 50%;
@@ -20,21 +25,19 @@
     position: relative;
     text-align: center;
 }
+
+
 .quote{
     font-size: 300%;
     font-weight: bold;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: absolute;
-    left: 20%;
-    right: 40%;
-    transform: translate(-20%, -250%);
+    display: flex;
+    justify-content: center;
 }
 .paragraph{
     font-size: 140%;
     font-weight: bold;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: absolute;
-    left: 20%;
-    right: 60%;
-    transform: translate(160%, -175%);
+    display: flex;
+    justify-content: center;
 }
