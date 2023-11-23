@@ -28,18 +28,37 @@
     font-size: 300%;
     font-weight: bold;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 0 10px;
     position: absolute;
     left: 20%;
     right: 40%;
-    transform: translate(-20%, -750%);
+    transform: translate(-40%, 450%);
 }
 .paragraph{
     font-size: 140%;
     font-weight: bold;
+    text-shadow: 1px 0 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     position: absolute;
     left: 20%;
-    right: 60%;
-    transform: translate(160%, -525%);
+    right: 40%;
+    transform: translate(-40%, 600%);
+}
+.vildsvin{
+    position: relative;
+    transform: translate(-490%, 10%)
+}
+.header2{
+    font-size: 200%;
+    font-weight: bold;
+    text-shadow: 1px 0 10px;
+}
+.paragraph2{
+    font-size: 120%;
+    font-weight: bold;
+    text-shadow: 1px 0 10px;
+}
+a{
+    color: white;
 }
 
