@@ -1,0 +1,35 @@
+
+body {
+    background-image: url("https://images.pexels.com/photos/1568757/pexels-photo-1568757.jpeg");
+  }
+.header{
+    background-color: black;
+    color: white;
+    width: 189%;
+    height: 18%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 400%;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+}
+.header a{
+    font-size: 50%;
+    color: white;
+    padding-left: 10%;
+}
+
+.main{
+    color: rgb(175, 18, 18);
+    width: 150%;
+    height: 40%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    padding-top: 1%;
+}
