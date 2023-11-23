@@ -1,6 +1,6 @@
 body {
     height: 100%;
-    --overflow-y: hidden;
+    overflow-y: hidden;
     overflow-x: scroll;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 .merch img {
-    transform: translate(200%, -280%);
+    transform: translate(100%, -225%);
     height: 75%;
 }
 
@@ -41,10 +41,9 @@ body {
 }
 
 .merch button {
-    width: 20%;
+    width: 35%;
     height: 10%;
-    transform: translate(450%, -1300%);
-
+    transform: translate(300%, -1200%);
 }
 
 .main img {
