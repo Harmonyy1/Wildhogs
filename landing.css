@@ -46,19 +46,5 @@
 }
 .vildsvin{
     position: relative;
-    transform: translate(-490%, 10%)
+    transform: translate(-550%, 5%);
 }
-.header2{
-    font-size: 200%;
-    font-weight: bold;
-    text-shadow: 1px 0 10px;
-}
-.paragraph2{
-    font-size: 120%;
-    font-weight: bold;
-    text-shadow: 1px 0 10px;
-}
-a{
-    color: white;
-}
-
