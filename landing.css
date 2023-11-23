@@ -1,20 +1,15 @@
-body {
-    overflow: auto;
-    white-space: nowrap;
-}
-
 .header{
     background-color: black;
     color: white;
+    padding: 2%;
     width: 189%;
-    height: 18%;
+    height: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 400%;
     font-weight: bold;
     display: flex;
     align-items: center;
-    position: fixed;
-    z-index: 2;
+    padding-left: 10%;
 }
 .header a{
     font-size: 50%;
@@ -22,22 +17,46 @@ body {
     padding-left: 10%;
 }
 .main{
-    position: relative;
+    display: flex;
+    position: absolute;
     text-align: center;
+    flex-direction: row;
+    object-fit: fill;
 }
-
 
 .quote{
     font-size: 300%;
     font-weight: bold;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: flex;
-    justify-content: center;
+    text-shadow: 1px 0 10px;
+    position: absolute;
+    left: 20%;
+    right: 40%;
+    transform: translate(-50%, 450%);
 }
 .paragraph{
-    font-size: 140%;
+    font-size: 120%;
     font-weight: bold;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: flex;
-    justify-content: center;
+    text-shadow: 1px 0 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    transform: translate(-52%, 1400%);
+}
+.vildsvin{
+    position: relative;
+    transform: translate(-550%, 5%);
+}
+.natur{
+    transform: translate(-600%, 5%);
+}
+.motorcykel{
+    transform: translate(-600%, 5%);
+}
+.kockar{
+    transform: translate(-600%, 5%);
+}
+.bondgard{
+    transform: translate(-600%, 5%);
 }
