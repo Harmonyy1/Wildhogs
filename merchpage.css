@@ -1,6 +1,6 @@
 body {
-    overflow: auto;
-    white-space: nowrap;
+    height: 100%;
+    overflow-y: hidden;
 }
 
 
@@ -14,11 +14,26 @@ body {
     font-weight: bold;
     display: flex;
     align-items: center;
-    position: fixed;
     z-index: 2;
 }
-.header a{
+.pageheader a{
     font-size: 50%;
     color: white;
     padding-left: 10%;
+}
+
+
+.merch {
+    display: flex;
+    flex-direction: row;
+}
+
+.merch img {
+    transform: translate(50%, -240%);
+    height: 75%;
+}
+
+.main img {
+    height: 500px;
+    width: 200%;
 }
