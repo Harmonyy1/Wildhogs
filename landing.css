@@ -17,9 +17,13 @@
     padding-left: 10%;
 }
 .main{
-    position: relative;
+    display: flex;
+    position: absolute;
     text-align: center;
+    flex-direction: row;
+    object-fit: fill;
 }
+
 .quote{
     font-size: 300%;
     font-weight: bold;
@@ -27,14 +31,15 @@
     position: absolute;
     left: 20%;
     right: 40%;
-    transform: translate(-20%, -250%);
+    transform: translate(-20%, -750%);
 }
 .paragraph{
     font-size: 140%;
     font-weight: bold;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     position: absolute;
     left: 20%;
     right: 60%;
-    transform: translate(160%, -175%);
+    transform: translate(160%, -525%);
 }
+
