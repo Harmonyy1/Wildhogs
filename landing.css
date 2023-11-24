@@ -2,14 +2,17 @@
     background-color: black;
     color: white;
     padding: 2%;
-    width: 189%;
-    height: 100%;
+    width: 90%;
+    height: 5%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 400%;
     font-weight: bold;
     display: flex;
     align-items: center;
     padding-left: 10%;
+    scroll-behavior: smooth;
+    z-index: 1;
+    position: fixed;
 }
 .header a{
     font-size: 50%;
@@ -32,7 +35,7 @@
     position: absolute;
     left: 20%;
     right: 40%;
-    transform: translate(-50%, 450%);
+    transform: translate(-55%, 450%);
 }
 .paragraph{
     font-size: 120%;
@@ -42,21 +45,21 @@
     position: absolute;
     left: 20%;
     right: 20%;
-    transform: translate(-52%, 1400%);
+    transform: translate(-55%, 1400%);
 }
 .vildsvin{
     position: relative;
-    transform: translate(-500%, 5%);
+    transform: translate(-500%, 20%);
 }
 .natur{
-    transform: translate(-550%, 5%);
+    transform: translate(-550%, 20%);
 }
 .motorcykel{
-    transform: translate(-550%, 5%);
+    transform: translate(-550%, 20%);
 }
 .kockar{
-    transform: translate(-550%, 5%);
+    transform: translate(-550%, 20%);
 }
 .bondgard{
-    transform: translate(-550%, 5%);
+    transform: translate(-550%, 20%);
 }
