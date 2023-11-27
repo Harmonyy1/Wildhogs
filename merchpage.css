@@ -88,7 +88,7 @@ body {
 .merchdetails {
     display: flex;
     flex-direction: row;
-    transform: translate(1%, -500%);
+    transform: translate(1%, -325%);
     height: 75%;
     justify-content: space-evenly;
     width: 100%;
@@ -102,7 +102,7 @@ body {
 }
 
 .merchdetails div p {
-    padding: 2.5%;
+    padding: 10%;
 }
 
 .merch img:hover {
